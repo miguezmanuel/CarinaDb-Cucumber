@@ -1,0 +1,20 @@
+[2025-02-03 08:32:36] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== WebDriver configuration ===========
+url=https://www.gsmarena.com
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+retry_interval=5
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2025-02-03 08:32:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-02-03 08:32:37] [1] [INFO] Set thread-count=1
+[2025-02-03 08:32:37] [1] [INFO] Set data-provider-thread-count=1
+[2025-02-03 08:32:37] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2025-02-03 08:32:37] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-02-03 08:32:37] [1] [INFO] RESULT #1: TEST [Hello World test - helloWorld] PASS [log=file:///Users/manumiguez/bddtesting/./reports/1738614756346/85b72dea-7121-4ec9-979a-70535b98fec0/test.log]

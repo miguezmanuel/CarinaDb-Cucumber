@@ -1,0 +1,7 @@
+com/solvd/mappers/UserMapper.class
+com/solvd/models/UserOrder.class
+com/solvd/carina/cucumber/steps/OrderSteps.class
+com/solvd/carina/cucumber/steps/LoginSteps.class
+com/solvd/mappers/OrderMapper.class
+com/solvd/carina/cucumber/runners/LoginRunner.class
+com/solvd/models/User.class
