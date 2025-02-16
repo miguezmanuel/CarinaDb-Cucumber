@@ -1,3 +1,3 @@
-com/solvd/carina/demo/CucumberWebSampleTest.class
 com/solvd/carina/demo/HelloWorld.class
 com/solvd/dbtest/TestDbConnection.class
+com/solvd/carina/cucumber/runners/LoginRunner.class

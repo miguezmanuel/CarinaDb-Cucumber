@@ -35,6 +35,25 @@
 	</repositories>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.zebrunner</groupId>
+			<artifactId>carina-core</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.zebrunner</groupId>
+			<artifactId>carina-webdriver</artifactId>
+			<version>1.2.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.zebrunner</groupId>
+			<artifactId>carina-utils</artifactId>
+			<version>1.2.6</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.zebrunner</groupId>
 			<artifactId>carina-cucumber</artifactId>
@@ -49,11 +68,23 @@
 		</dependency>
 
 		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.21.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.21.1</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.30</version>
 		</dependency>
-		<!-- Log4j2 -->
+
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
@@ -66,8 +97,6 @@
 		</dependency>
 
 		<dependency>
-			<!--we need it to reuse benefits of zebrunner testng agent for webdriver
-				sesssion(s) declaration -->
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy</artifactId>
 			<version>1.12.18</version>
@@ -80,27 +109,28 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>3.0.4</version>
+		</dependency>
+
+		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.mybatis</groupId>
-			<artifactId>mybatis-spring</artifactId>
-			<version>3.0.4</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.28.1</version>
 		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>RELEASE</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>7.21.0</version>
-			<scope>compile</scope>
+			<version>4.13.2</version>
+			<scope>test</scope>
 		</dependency>
 
 

@@ -3,5 +3,11 @@ com/solvd/models/UserOrder.class
 com/solvd/carina/cucumber/steps/OrderSteps.class
 com/solvd/carina/cucumber/steps/LoginSteps.class
 com/solvd/mappers/OrderMapper.class
-com/solvd/carina/cucumber/runners/LoginRunner.class
+com/solvd/carina/cucumber/common/LoginPageBase.class
+com/solvd/utils/DatabaseUtils.class
+com/solvd/carina/cucumber/web/pages/ProductPage.class
+com/solvd/utils/ConnectionFactory.class
+com/solvd/carina/cucumber/common/ProductPageBase.class
+com/solvd/carina/cucumber/web/pages/LoginPage.class
+com/solvd/carina/cucumber/runners/Hooks.class
 com/solvd/models/User.class
